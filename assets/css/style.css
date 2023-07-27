@@ -1,0 +1,27 @@
+header{
+    height: 90px;
+    background-color: white;
+}
+
+nav .navbar{
+    width: 80%;
+}
+
+nav form{
+    width: 100%;
+}
+
+.ms_bg-side{
+    background-color: #10273d;
+    height: calc(100vh - 80px);
+    background-image: url(../img/sidebar-bg.png);
+}
+
+.sidebar{
+    width: 100%;
+    height: 100%
+}
+
+.ms_container-wh{
+    height: 100%;
+}
