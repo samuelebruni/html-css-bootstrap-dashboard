@@ -39,7 +39,7 @@ nav form{
 }
 
 .ms_table-main{
-    width: 45%;
+    width: 60%;
 }
 
 .ms_table-second
@@ -48,25 +48,5 @@ nav form{
 }
 
 .ms_table-third{
-    width: 40%;
-}
-
-@media screen and(min-width: 576px ) {
-    
-}
-
-@media screen and(min-width: 768px ) {
-    
-}
-
-@media screen and(min-width: 992px ) {
-    .ms_table-width{
-        width: 70%;
-    }
-}
-
-@media screen and(min-width: 1200px ) {
-    .ms_table-width{
-        width: 80%;
-    }
+    width: 12%;
 }
