@@ -33,3 +33,40 @@ nav form{
 .ms_bg-badge{
     background-color: #165bba;
 }
+
+.ms_margin-right{
+    margin-right: 1rem;
+}
+
+.ms_table-main{
+    width: 45%;
+}
+
+.ms_table-second
+{
+    width: 10%;
+}
+
+.ms_table-third{
+    width: 40%;
+}
+
+@media screen and(min-width: 576px ) {
+    
+}
+
+@media screen and(min-width: 768px ) {
+    
+}
+
+@media screen and(min-width: 992px ) {
+    .ms_table-width{
+        width: 70%;
+    }
+}
+
+@media screen and(min-width: 1200px ) {
+    .ms_table-width{
+        width: 80%;
+    }
+}
