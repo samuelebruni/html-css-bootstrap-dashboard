@@ -14,14 +14,14 @@
 
         <nav class="navbar navbar-expand bg-body-primary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img class="d-none d-xxl-block" width="300px" src="./assets/img/logo.svg" alt=""> <img class="d-xxl-none" width="60px" src="./assets/img/mobile-logo.png" alt=""> </a>
+              <a class="navbar-brand" href="#"><img class="d-none d-xl-block px-4 pt-2" width="300px" src="./assets/img/logo.svg" alt=""> <img class="d-xl-none" width="60px" src="./assets/img/mobile-logo.png" alt=""> </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <nav class="navbar bg-body-tertiary">
                 <div class="container-fluid">
                   <form class="d-flex" role="search">
-                    <input class="form-control me-2 bg-body-tertiary" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                    <input class="form-control me-2 bg-body-tertiary lh-lg" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                     
                   </form>
                 </div>
@@ -29,13 +29,13 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-list-ul fa-2x d-xxl-block d-none" style="color: #000000;"></i></a>
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-list-ul fa-2x d-xl-block d-none" style="color: #000000;"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-question fa-2x d-xxl-block d-none" style="color: #000000;"></i></a>
+                    <a class="nav-link" href="#"><i class="fa-solid fa-question fa-2x d-xl-block d-none" style="color: #000000;"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical fa-2x d-xxl-block d-none" style="color: #000000;"></i></a>
+                    <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical fa-2x d-xl-block d-none" style="color: #000000;"></i></a>
                   </li>
                   <li class="nav-item dropdown dropstart">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -53,35 +53,35 @@
           </nav>
 
     </header>
-    <main>
+    <main class="d-flex">
  
         <div class="col-1 ms_bg-side">
             <div class="sidebar">
                 <div class="ms_container-wh d-flex flex-column align-items-center justify-content-between">
                     <div class="row flex-column justify-content-center align-items-center">
-                        <div class="icon pb-4 pt-5 d-flex gap-4 justify-content-center align-items-center">
-                            <i class="fa-solid fa-house fa-2x" style="color: #ffffff;"></i>
-                            <div class="d-none d-xxl-block text-white fs-4">
+                        <div class="icon pb-4 pt-5 d-flex gap-3 justify-content-center align-items-center">
+                            <i class="fa-solid fa-house fa-lg" style="color: #ffffff;"></i>
+                            <div class="d-none d-xl-block text-white fs-5">
                                 Home
                             </div>
                         </div>
-                        <div class="icon py-4 d-flex gap-4 justify-content-center align-items-center">
-                            <i class="fa-solid fa-chart-simple fa-2x" style="color: #ffffff;"></i>
-                            <div class="d-none d-xxl-block text-white fs-4">
+                        <div class="icon py-4 d-flex gap-3 justify-content-center align-items-center">
+                            <i class="fa-solid fa-chart-simple fa-lg" style="color: #ffffff;"></i>
+                            <div class="d-none d-xl-block text-white fs-5">
                                 Stats
                             </div>
                         </div>
-                        <div class="icon py-4 d-flex gap-4">
-                            <i class="fa-solid fa-signal fa-2x" style="color: #ffffff;"></i>
-                            <div class="d-none d-xxl-block text-white fs-4">
+                        <div class="icon py-4 d-flex gap-3 justify-content-center align-items-center">
+                            <i class="fa-solid fa-signal fa-lg" style="color: #ffffff;"></i>
+                            <div class="d-none d-xl-block text-white fs-5">
                                 Signals
                             </div>
                         </div>
                 </div> 
                 <div class="ms_container-wh d-flex align-items-end justify-content-center">       
-                    <div class="icon py-4 d-flex gap-4 justify-content-center align-items-center pb-5 mb-5">
-                        <i class="fa-solid fa-gear fa-2x" style="color: #ffffff;"></i>
-                        <div class="d-none d-xxl-block text-white fs-4">
+                    <div class="icon py-4 d-flex gap-3 justify-content-center align-items-center pb-5 mb-5">
+                        <i class="fa-solid fa-gear fa-lg" style="color: #ffffff;"></i>
+                        <div class="d-none d-xl-block text-white fs-5">
                             Admin
                         </div>
                     </div>
@@ -89,7 +89,45 @@
                 </div>
             </div>
         </div>
-        <div class="col-11"></div>
+        <div class="col-11">
+            <section class="plan">
+                <div class="container-fluid">
+                    <div class="row align-content-center">
+                        <div class="col-12 col-md-4 col-xl-3 d-flex gap-3 p-3 align-items-center">
+                            <span class="text-white fs-5">Nuovo Studente</span>
+                            <div class="border border-light p-1 btn">
+                                <i class="fa-solid fa-plus fa-lg m-1" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-xl-6 p-3">
+                            <div class="row">
+                                <div class="d-flex align-items-center gap-3">
+                                    <h2 class="text-white fs-1">Boolean</h2>
+                                    <span class="fs-5 badge ms_bg-badge ">Piano Blaze</span>
+                                </div>
+                                <div class="d-flex gap-3 align-items-center pt-3">
+                                    <span class="fs-5 badge ms_bg-badge">3 app</span>
+                                    <i class="fa-solid fa-angles-right" style="color: #ffffff;"></i>
+                                    <span class="fs-5 badge ms_bg-badge d-none d-xl-block">Boolean mobile app</span>
+                                    <span class="fs-5 badge ms_bg-badge d-none d-xxl-inline-block">Boolean web app</span>
+                                    <span class="fs-5 badge ms_bg-badge d-xl-block d-none">Boolean blog app</span>
+                                    <span class="fs-5 badge ms_bg-badge d-xl-none"><i class="fa-solid fa-plus" style="color: #ffffff;"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-xl-3 text-white d-flex flex-column p-3">
+                            <div class="fs-5">
+                                Studenti Online negli Ultimi 30 minuti
+                            </div>
+                            <div class="fs-1">
+                                125
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+        </div>
 
     </main>
 

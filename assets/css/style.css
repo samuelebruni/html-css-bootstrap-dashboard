@@ -25,3 +25,11 @@ nav form{
 .ms_container-wh{
     height: 100%;
 }
+
+.plan{
+    background-color: #1b72e8;
+}
+
+.ms_bg-badge{
+    background-color: #165bba;
+}
