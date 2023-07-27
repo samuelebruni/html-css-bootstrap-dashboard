@@ -1,6 +1,9 @@
 header{
     height: 90px;
     background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
 }
 
 nav .navbar{
@@ -13,8 +16,10 @@ nav form{
 
 .ms_bg-side{
     background-color: #10273d;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 90px);
     background-image: url(../img/sidebar-bg.png);
+    position: sticky;
+    top: 0;
 }
 
 .sidebar{
