@@ -16,6 +16,10 @@ nav form{
     width: 100%;
 }
 
+.ms_w-canvas{
+    width: 35%!important;
+}
+
 .ms_bg-side{
     background-color: #10273d;
     height: calc(100vh - 90px);
@@ -33,7 +37,7 @@ nav form{
     height: 100%;
 }
 
-.plan{
+.date{
     background-color: #1b72e8;
 }
 
@@ -43,6 +47,10 @@ nav form{
 
 .ms_margin-right{
     margin-right: 1rem;
+}
+
+.ms_margin-left{
+    margin-left: 1rem;
 }
 
 .ms_table-main{

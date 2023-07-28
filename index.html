@@ -12,6 +12,7 @@
     
     <header>
 
+        <!--navbar-->
         <nav class="navbar navbar-expand bg-body-primary">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img class="d-none d-xl-block px-4 pt-2" width="300px" src="./assets/img/logo.svg" alt=""> <img class="d-xl-none" width="60px" src="./assets/img/mobile-logo.png" alt=""> </a>
@@ -51,10 +52,13 @@
               </div>
             </div>
           </nav>
+        <!--/navbar-->
 
     </header>
+    
     <main class="d-flex">
- 
+        
+        <!--sidebar-->
         <div class="col-1 ms_bg-side">
             <div class="sidebar">
                 <div class="ms_container-wh d-flex flex-column align-items-center justify-content-between">
@@ -89,16 +93,96 @@
                 </div>
             </div>
         </div>
+        <!--/sidebar-->
+
         <div class="col-11">
-            <section class="plan p-5">
+
+            <!--date-->
+            <section class="date p-5">
                 <div class="container-fluid">
                     <div class="row align-content-center">
+
+                        <!--newstudent-->
                         <div class="col-12 col-md-3 col-xl-2 d-flex gap-3 py-3 align-items-center order-md-3">
-                            <span class="text-white fs-5">Nuovo Studente</span>
-                            <div class="border border-light p-1 btn ms_margin-right">
-                                <i class="fa-solid fa-plus fa-lg p-2" style="color: #ffffff;"></i>
+                            <button class="btn p-0 d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span class="text-white fs-5">Nuovo Studente</span>
+                                <div class="border border-light p-1 btn ms_margin-right ms_margin-left">
+                                    <i class="fa-solid fa-plus fa-lg p-2" style="color: #ffffff;"></i>
+                                </div>
+                            </button>
+
+                               
+                            <div class="offcanvas offcanvas-end ms_w-canvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title fw-bold fs-3" id="offcanvasRightLabel">Inserisci un nuovo Studente</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body fs-5 overflow-auto">
+                                    <div class="row g-3 mb-3">
+                                        <div class="col">
+                                          <label for="inputEmail4" class="form-label">Nome</label>
+                                          <input type="text" class="form-control" placeholder="" aria-label="First name">
+                                        </div>
+                                        <div class="col">
+
+                                          <label for="inputEmail4" class="form-label">Cognome</label>
+                                          <input type="text" class="form-control" placeholder="" aria-label="Last name">
+                                        </div>
+                                      </div>
+                                    <form class="row g-3">
+                                        <div class="col-md-6">
+                                          <label for="inputEmail4" class="form-label">Email</label>
+                                          <input type="email" class="form-control" id="inputEmail4">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputPassword4" class="form-label">Password</label>
+                                          <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+                                        <div class="col-12">
+                                          <label for="inputAddress" class="form-label">Indirizzo</label>
+                                          <input type="text" class="form-control" id="inputAddress" placeholder="Minas Tyrit, Gondor, Midlle Heart">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputCity" class="form-label">Città</label>
+                                          <input type="text" class="form-control" id="inputCity">
+                                        </div>
+                                        <div class="col-md-4">
+                                          <label for="inputState" class="form-label">Stato</label>
+                                          <select id="inputState" class="form-select">
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                          </select>
+                                        </div>
+                                        <div class="col-md-2">
+                                          <label for="inputZip" class="form-label">CAP</label>
+                                          <input type="text" class="form-control" id="inputZip">
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label for="formFileSm" class="form-label">Foto</label>
+                                                <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                              </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                              Seleziona per Proseguire
+                                            </label>
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <button type="submit" class="btn btn-primary">Salva</button>
+                                          <button type="submit" class="btn btn-warning">Svuota</button>
+                                        </div>
+                                      </form>
+                                </div>
                             </div>
+
+
                         </div>
+                        <!--/newstudent-->
+
+                        <!--blazeplan-->
                         <div class="col-12 col-md-5 col-xl-8 col-xxl-7 order-md-1">
                             <div class="row">
                                 <div class="d-flex align-items-center gap-3">
@@ -115,6 +199,9 @@
                                 </div>
                             </div>
                         </div>
+                        <!--/blazeplan-->
+
+                        <!--onlinestudent-->
                         <div class="col-12 col-md-4 col-xl-2 col-xxl-3 text-white d-flex flex-column py-3 order-md-2">
                             <div class="fs-5">
                                 Studenti Online negli Ultimi 30 minuti
@@ -123,13 +210,19 @@
                                 125
                             </div>
                         </div>
+                        <!--/onlinestudent-->
+
                     </div>
                 </div>
-                
             </section>
+            <!--/date-->
+
+            <!--control-->
             <section class="control d-flex">
                 <div class="container-fluid">
                     <div class="row">
+
+                        <!--nextclass and faq-->
                         <div class="col-12 col-xl-9">
                             <div class="row">
                                 <div class="col-12 py-5">
@@ -511,6 +604,9 @@
                                 </div>
                             </div>
                         </div>
+                        <!--/nextclass and faq-->
+
+                        <!--analyst-->
                         <div class="col-12 col-xl-3 py-5">
                             <div class="row">
                                 <div class="col-12">
@@ -554,9 +650,12 @@
                                 </div>
                             </div>
                         </div>
+                        <!--/analyst-->
                     </div>    
                 </div>
             </section>
+            <!--/control-->
+
         </div>
 
     </main>
