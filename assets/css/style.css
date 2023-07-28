@@ -82,6 +82,7 @@ i:hover{
 .icon:hover{
     background-color: lightslategray;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .ms_w-canvass{
