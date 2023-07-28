@@ -89,7 +89,8 @@ i:hover{
 }
 
 
-@media screen and(min-width: 1200px) {
+
+@media screen and (min-width: 1200px) {
     .ms_w-canvass{
         width: 38%!important;
     }
