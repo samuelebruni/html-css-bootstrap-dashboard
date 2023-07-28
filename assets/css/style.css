@@ -1,9 +1,11 @@
 header{
     height: 90px;
     background-color: white;
-    position: sticky;
-    top: 0;
-    z-index: 10000;
+}
+
+main{
+    height: calc(100vh - 90px);
+    overflow: auto;
 }
 
 nav .navbar{

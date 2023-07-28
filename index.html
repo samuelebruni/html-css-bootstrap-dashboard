@@ -32,7 +32,7 @@
                     <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-list-ul fa-2x d-xl-block d-none" style="color: #000000;"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-circle-question fa-2x" style="color: #000000;"></i></a>
+                    <a class="nav-link" href="#"><i class="fa-solid fa-circle-question fa-2x d-none d-xl-block" style="color: #000000;"></i></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical fa-2x d-xl-block d-none" style="color: #000000;"></i></a>
@@ -89,7 +89,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-11 overflow-auto">
+        <div class="col-11">
             <section class="plan p-5">
                 <div class="container-fluid">
                     <div class="row align-content-center">
@@ -127,1070 +127,434 @@
                 </div>
                 
             </section>
-            <section class="control">
+            <section class="control d-flex">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12 col-xl-8 py-5">
-                            <div class="card" style="width: 100%">
-                                <div class="card-header fs-1">
-                                  Prossime Classi
+                        <div class="col-12 col-xl-9">
+                            <div class="row">
+                                <div class="col-12 py-5">
+                                    <div class="card" style="width: 100%">
+                                        <div class="card-header fs-1">
+                                        Prossime Classi
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <table class="table">
+                                                <thead>
+                                                <tr>
+                                                    <th scope="col">Nome</th>
+                                                    <th scope="col">
+                                                        <div class="d-flex justify-content-center align-items-center d-none d-md-block">
+                                                            Data Inizio
+                                                        </div>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            RDI
+                                                        </div>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            Stato
+                                                        </div>
+                                                    </th>
+                                                    <th scope="col" class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            Azioni
+                                                        </div>
+                                                    </th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <th scope="row" class="ms_table-main">
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
+                                                            <div>
+                                                                Classe 75
+                                                            </div>
+                                                        </div>
+                                                    </th>
+                                                    <td class="ms_table-third">
+                                                        <div class="d-flex justify-content-center align-items-center d-none d-md-block">
+                                                            15 Feb 2021
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            20%
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            <div class="badge bg-success">
+                                                                Done
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex align-items-center justify-content-center gap-2">
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" class="ms_table-main">
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
+                                                            <div>
+                                                                Classe 75
+                                                            </div>
+                                                        </div>
+                                                    </th>
+                                                    <td class="ms_table-third">
+                                                        <div class="d-flex justify-content-center align-items-center d-none d-md-block">
+                                                            15 Feb 2021
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            20%
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            <div class="badge bg-success">
+                                                                Done
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex align-items-center justify-content-center gap-2">
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" class="ms_table-main">
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
+                                                            <div>
+                                                                Classe 75
+                                                            </div>
+                                                        </div>
+                                                    </th>
+                                                    <td class="ms_table-third">
+                                                        <div class="d-flex justify-content-center align-items-center d-none d-md-block">
+                                                            15 Feb 2021
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            20%
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            <div class="badge bg-warning">
+                                                                Process
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex align-items-center justify-content-center gap-2">
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" class="ms_table-main">
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
+                                                            <div>
+                                                                Classe 75
+                                                            </div>
+                                                        </div>
+                                                    </th>
+                                                    <td class="ms_table-third">
+                                                        <div class="d-flex justify-content-center align-items-center d-none d-md-block">
+                                                            15 Feb 2021
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            20%
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            <div class="badge bg-success">
+                                                                Done
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex align-items-center justify-content-center gap-2">
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" class="ms_table-main">
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
+                                                            <div>
+                                                                Classe 75
+                                                            </div>
+                                                        </div>
+                                                    </th>
+                                                    <td class="ms_table-third">
+                                                        <div class="d-flex justify-content-center align-items-center d-none d-md-block">
+                                                            15 Feb 2021
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            20%
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            <div class="badge bg-danger">
+                                                                Failed
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex align-items-center justify-content-center gap-2">
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" class="ms_table-main">
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
+                                                            <div>
+                                                                Classe 75
+                                                            </div>
+                                                        </div>
+                                                    </th>
+                                                    <td class="ms_table-third">
+                                                        <div class="d-flex justify-content-center align-items-center d-none d-md-block">
+                                                            15 Feb 2021
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            20%
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            <div class="badge bg-success">
+                                                                Done
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex align-items-center justify-content-center gap-2">
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" class="ms_table-main">
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
+                                                            <div>
+                                                                Classe 75
+                                                            </div>
+                                                        </div>
+                                                    </th>
+                                                    <td class="ms_table-third">
+                                                        <div class="d-flex justify-content-center align-items-center d-none d-md-block">
+                                                            15 Feb 2021
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            20%
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            <div class="badge bg-danger">
+                                                                Failed
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex align-items-center justify-content-center gap-2">
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" class="ms_table-main">
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
+                                                            <div>
+                                                                Classe 75
+                                                            </div>
+                                                        </div>
+                                                    </th>
+                                                    <td class="ms_table-third">
+                                                        <div class="d-flex justify-content-center align-items-center d-none d-md-block">
+                                                            15 Feb 2021
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            20%
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            <div class="badge bg-success">
+                                                                Done
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="ms_table-second">
+                                                        <div class="d-flex align-items-center justify-content-center gap-2">
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                            <div class="border border-black">
+                                                                <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                
+                                                </tbody>
+                                            </table>
+                                        </li
+                                        </ul>
+                                    </div>
                                 </div>
-                                <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">
-                                    <table class="table">
-                                        <thead>
-                                          <tr>
-                                            <th scope="col">Nome</th>
-                                            <th scope="col">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    Data Inizio
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    RDI
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    Stato
-                                                </div>
-                                            </th>
-                                            <th scope="col" class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    Azioni
-                                                </div>
-                                            </th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-warning">
-                                                        Process
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-danger">
-                                                        Failed
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-danger">
-                                                        Failed
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          
-                                        </tbody>
-                                      </table>
-                                  </li
-                                </ul>
+                                <div class="col-12 py-5">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-header fs-1">
+                                        F.A.Q.
+                                        </div>
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingOne">
+                                                <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                Come aggiumgere un nuovo studente ?
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body fs-5">Placeholder content for this accordion, which is intended to demonstrate the  class. This is the first item's accordion body.</div>
+                                            </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingTwo">
+                                                <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                Come posso accedere alle informazioni del mio account ?
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body fs-5">Placeholder content for this accordion, which is intended to demonstrate the  class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                            </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingThree">
+                                                <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                Posso usare questa dashboard da mobile ?
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body fs-5">Placeholder content for this accordion, which is intended to demonstrate the  class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-12 col-xl-8 py-5">
-                            <div class="card" style="width: 100%;">
-                                <div class="card-header fs-1">
-                                  F.A.Q.
+                        <div class="col-12 col-xl-3 py-5">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card" style="width: 100%">
+                                        <div class="card-header fs-1">
+                                        Todo
+                                        </div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item d-flex align-items-center gap-2">
+                                              <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                              <label class="form-check-label fw-bold fs-5" for="firstCheckbox">Kickoff nuove classi</label>
+                                            </li>
+                                            <li class="list-group-item d-flex align-items-center gap-2">
+                                                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                                <label class="form-check-label fw-bold fs-5" for="firstCheckbox">Lezione di Bootstrap 5 alla classe #75</label>
+                                              </li>
+                                              <li class="list-group-item d-flex align-items-center gap-2">
+                                                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                                <label class="form-check-label fw-bold fs-5" for="firstCheckbox">Controllare username GitHub degli studenti</label>
+                                              </li>
+                                          </ul>
+                                    </div>        
                                 </div>
-                                <div class="accordion accordion-flush" id="accordionFlushExample">
-                                    <div class="accordion-item">
-                                      <h2 class="accordion-header" id="flush-headingOne">
-                                        <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                          Come aggiumgere un nuovo studente ?
-                                        </button>
-                                      </h2>
-                                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body fs-5">Placeholder content for this accordion, which is intended to demonstrate the  class. This is the first item's accordion body.</div>
-                                      </div>
+                                <div class="col-12 py-5">
+                                    <div class="card mb-3">
+                                        <img src="./assets/img/stats.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title fs-4">Utenti Attivi</h5>
+                                          <p class="card-text fw-bold fs-5">Lista degli utenti attivi in piattaforma ell'ultimo mese</p>
+                                        </div>
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item fw-bold fs-5">Gennaio: 1200</li>
+                                                <li class="list-group-item fw-bold fs-5">Febbraio: 800</li>
+                                                <li class="list-group-item fw-bold fs-5">Marzo: 1500</li>
+                                                <li class="list-group-item fs-5">
+                                                    <a class="fs-5" href="#">Visualizza Report approfondito</a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div class="accordion-item">
-                                      <h2 class="accordion-header" id="flush-headingTwo">
-                                        <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                          Come posso accedere alle informazioni del mio account ?
-                                        </button>
-                                      </h2>
-                                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body fs-5">Placeholder content for this accordion, which is intended to demonstrate the  class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                      </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                      <h2 class="accordion-header" id="flush-headingThree">
-                                        <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                          Posso usare questa dashboard da mobile ?
-                                        </button>
-                                      </h2>
-                                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body fs-5">Placeholder content for this accordion, which is intended to demonstrate the  class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  
-                              </div>
-                        </div>
-
-
-
-
-
-                        <div class="col-12 col-xl-8 py-5">
-                            <div class="card" style="width: 100%">
-                                <div class="card-header fs-1">
-                                  Prossime Classi
                                 </div>
-                                <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">
-                                    <table class="table">
-                                        <thead>
-                                          <tr>
-                                            <th scope="col">Nome</th>
-                                            <th scope="col">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    Data Inizio
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    RDI
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    Stato
-                                                </div>
-                                            </th>
-                                            <th scope="col" class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    Azioni
-                                                </div>
-                                            </th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-warning">
-                                                        Process
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-danger">
-                                                        Failed
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-danger">
-                                                        Failed
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          
-                                        </tbody>
-                                      </table>
-                                  </li
-                                </ul>
                             </div>
                         </div>
-                        <div class="col-12 col-xl-8 py-5">
-                            <div class="card" style="width: 100%">
-                                <div class="card-header fs-1">
-                                  Prossime Classi
-                                </div>
-                                <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">
-                                    <table class="table">
-                                        <thead>
-                                          <tr>
-                                            <th scope="col">Nome</th>
-                                            <th scope="col">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    Data Inizio
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    RDI
-                                                </div>
-                                            </th>
-                                            <th scope="col">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    Stato
-                                                </div>
-                                            </th>
-                                            <th scope="col" class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    Azioni
-                                                </div>
-                                            </th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-warning">
-                                                        Process
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-danger">
-                                                        Failed
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-danger">
-                                                        Failed
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row" class="ms_table-main">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img width="30px" src="./assets/img/class-avatar.jpg" alt="">
-                                                    <div>
-                                                        Classe 75
-                                                    </div>
-                                                </div>
-                                            </th>
-                                            <td class="ms_table-third">
-                                                <div class="d-flex justify-content-center align-items-center d-none d-md-block">
-                                                    15 Feb 2021
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    20%
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex justify-content-center align-items-center">
-                                                    <div class="badge bg-success">
-                                                        Done
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="ms_table-second">
-                                                <div class="d-flex align-items-center justify-content-center gap-2">
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-pen p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                    <div class="border border-black">
-                                                        <i class="fa-solid fa-trash p-2" style="color: #000000;"></i>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                          </tr>
-                                          
-                                        </tbody>
-                                      </table>
-                                  </li
-                                </ul>
-                            </div>
-                        </div>
-
-
-
-
-                    </div>
+                    </div>    
                 </div>
             </section>
         </div>
