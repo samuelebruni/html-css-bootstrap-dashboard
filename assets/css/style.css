@@ -16,10 +16,6 @@ nav form{
     width: 100%;
 }
 
-.ms_w-canvas{
-    width: 35%!important;
-}
-
 .ms_bg-side{
     background-color: #10273d;
     height: calc(100vh - 90px);
@@ -43,6 +39,11 @@ nav form{
 
 .ms_bg-badge{
     background-color: #165bba;
+    cursor: pointer;
+}
+
+.ms_bg-badge:hover{
+    background-color: #022e6c;
 }
 
 .ms_margin-right{
@@ -64,4 +65,33 @@ nav form{
 
 .ms_table-third{
     width: 12%;
+}
+
+.date i{
+    color: white;
+}
+
+.light:hover{
+    background-color: white;
+}
+
+i:hover{
+    color: #165bba;
+}
+
+.icon:hover{
+    background-color: lightslategray;
+    cursor: pointer;
+}
+
+.ms_w-canvass{
+    width: 100%!important;
+}
+
+
+@media screen and(min-width: 1200px) {
+    .ms_w-canvass{
+        width: 38%!important;
+    }
+    
 }

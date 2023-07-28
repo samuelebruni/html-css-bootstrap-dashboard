@@ -55,7 +55,7 @@
         <!--/navbar-->
 
     </header>
-    
+
     <main class="d-flex">
         
         <!--sidebar-->
@@ -63,7 +63,7 @@
             <div class="sidebar">
                 <div class="ms_container-wh d-flex flex-column align-items-center justify-content-between">
                     <div class="row flex-column justify-content-center align-items-center">
-                        <div class="icon pb-4 pt-5 d-flex gap-3 justify-content-center align-items-center">
+                        <div class="icon py-4 mt-5 d-flex gap-3 justify-content-center align-items-center">
                             <i class="fa-solid fa-house fa-lg" style="color: #ffffff;"></i>
                             <div class="d-none d-xl-block text-white fs-5">
                                 Home
@@ -83,7 +83,7 @@
                         </div>
                 </div> 
                 <div class="ms_container-wh d-flex align-items-end justify-content-center">       
-                    <div class="icon py-4 d-flex gap-3 justify-content-center align-items-center pb-5 mb-5">
+                    <div class="icon py-4 d-flex gap-3 justify-content-center align-items-center mb-5 mb-5">
                         <i class="fa-solid fa-gear fa-lg" style="color: #ffffff;"></i>
                         <div class="d-none d-xl-block text-white fs-5">
                             Admin
@@ -105,13 +105,13 @@
                         <!--newstudent-->
                         <div class="col-12 col-md-3 col-xl-2 d-flex gap-3 py-3 align-items-center order-md-3">
                             <button class="btn p-0 d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span class="text-white fs-5">Nuovo Studente</span>
-                                <div class="border border-light p-1 btn ms_margin-right ms_margin-left">
-                                    <i class="fa-solid fa-plus fa-lg p-2" style="color: #ffffff;"></i>
+                                <div class="light border border-light p-1 btn ms_margin-right ms_margin-left">
+                                    <i class="fa-solid fa-plus fa-2x p-2"></i>
                                 </div>
                             </button>
 
-                               
-                            <div class="offcanvas offcanvas-end ms_w-canvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <!--canvas bar-->  
+                            <div class="offcanvas offcanvas-end ms_w-canvass" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                             <div class="offcanvas-header">
                                 <h5 class="offcanvas-title fw-bold fs-3" id="offcanvasRightLabel">Inserisci un nuovo Studente</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -148,8 +148,9 @@
                                         <div class="col-md-4">
                                           <label for="inputState" class="form-label">Stato</label>
                                           <select id="inputState" class="form-select">
-                                            <option selected>Choose...</option>
+                                            <option selected>Scegli..</option>
                                             <option>...</option>
+                                            <option>Solo questa</option>
                                           </select>
                                         </div>
                                         <div class="col-md-2">
@@ -172,11 +173,12 @@
                                         </div>
                                         <div class="col-12">
                                           <button type="submit" class="btn btn-primary">Salva</button>
-                                          <button type="submit" class="btn btn-warning">Svuota</button>
+                                          <button type="reset" class="btn btn-warning">Svuota</button>
                                         </div>
                                       </form>
                                 </div>
                             </div>
+                            <!--/canvas bar-->
 
 
                         </div>
@@ -232,7 +234,7 @@
                                         </div>
                                         <ul class="list-group list-group-flush">
                                         <li class="list-group-item">
-                                            <table class="table">
+                                            <table class="table table-hover">
                                                 <thead>
                                                 <tr>
                                                     <th scope="col">Nome</th>
